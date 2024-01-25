@@ -11,9 +11,9 @@ export const Contacto = () => {
         Si buscas una empresa de servicios IT que trabaje incansablemente para
         cumplir tus expectativas y objetivos, no busques más allá de BEMUS-IT.
       </p>
-      <button>
-        <Link to={'/contact'}>Contacto</Link>
-      </button>
+      <Link to={"/contact"}>
+        <button>Contacto</button>
+      </Link>
     </div>
   );
 };
