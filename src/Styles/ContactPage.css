@@ -1,0 +1,79 @@
+.flexContainer{
+    display: flex;
+    align-items: center;
+    padding: 15vh 15vw;
+    gap: 10rem;
+}
+.header{
+    flex-direction: column;
+}
+.contactPageContainer{
+    font-family: 'sora';
+    height: 120vh;
+
+}
+.contactPageContainer h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.contactPageContainer p{
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: gray;
+}
+.formContactoContainer form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.formContactoContainer input{
+    background-color: rgb(243,244,246);
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+}
+.formContactoContainer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 120, 4);
+    font-size: 1rem;
+    font-family: 'montserrat';
+    white-space: nowrap;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 1rem 0;
+    cursor: pointer;
+    text-align: center;
+    gap: 0.5rem;
+}
+.formContactoContainer button img{
+    max-width: 1.8rem;
+}
+#double{
+    grid-column: 2 span;
+}
+#message{
+    grid-column: 2 span;
+    padding-bottom: 4rem;
+}
+
+@media(max-width: 768px){
+    .formContactoContainer form{
+        display: flex;
+        flex-direction: column;
+    }
+    .gifContactoContainer{
+        display: none;
+    }
+    .flexContainer{
+        padding-top: 0rem;
+        padding-left: 2rem;
+    }
+}
+

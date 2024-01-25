@@ -1,0 +1,73 @@
+.contratoContainer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left:15rem;
+    margin-top: 5rem;
+    background-color: rgb(38, 38, 44);
+    color: white;
+    font-family: 'sora';
+}
+.contratoContainer h3{
+    color: rgb(223,220,156);
+    font-size: 1.3rem;
+}
+
+.contratoContainer h1{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contratoContainer p{
+    font-size: 1.1rem;
+    max-width: 50%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contratoItems{
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.contratoItems img{
+    max-width: 5rem;
+}
+.contratoItems h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+    max-width: 70%;
+}
+.itemContrato{
+    max-width: 100%;
+}
+.itemContrato p{
+    text-align: left;
+    font-size: 1rem;
+}
+
+@media(max-width: 768px){
+    .contratoContainer{
+        padding-left: 2rem;
+    }
+    .contratoContainer p{
+        max-width: 90%;
+        text-align: left;
+
+    }
+    .contratoItems{
+        display: flex;
+        flex-direction: column;
+    }
+    .itemContrato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .itemContrato p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,59 @@
+.inicioContainer {
+    height: 85vh;
+    margin-top: 3rem;
+    padding-left: 15vw;
+    font-family: 'montserrat';
+    background-image: url('../assets/wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.inicioContainer h1{
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color:rgb(38,38,44) ;
+    max-width: 70%;
+    line-height: 75px;
+}
+.inicioContainer h3{
+    font-size: 1.5rem;
+    color: rgb(74, 74, 249);
+    font-weight: 500;
+}
+.inicioContainer button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 120, 4);
+    font-size: 1rem;
+    font-family: 'montserrat';
+    white-space: nowrap;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    gap: 1rem;
+}
+.inicioContainer button img{
+    max-width: 2rem;
+}
+
+@media(max-width: 768px){
+    .inicioContainer{
+        padding-left: 5vw;
+        margin-top: 0;
+        height: 80vh;
+    }
+    .inicioContainer h1{
+        max-width: 100%;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1700px){
+    .inicioContainer h1{
+        max-width: 95%;
+    }
+}

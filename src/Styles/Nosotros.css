@@ -1,0 +1,45 @@
+.nosotrosContainer{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%; 
+    margin: 0 auto;
+    margin-top: 5rem;   
+    font-family: 'sora';
+}
+.nosotrosContainer h2{
+    font-size: 1.2rem;
+    color: rgb(61, 61, 250);
+}
+.nosotrosContainer h1{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 800;
+    color:rgb(38,38,44) ;
+}
+.nosotrosContainer p{
+    font-size: 1.2rem;
+    color: gray;
+}
+.nosotrosContainer button{
+        display: flex;
+        align-items: center;
+        background-color: rgb(4, 120, 4);
+        font-size: 1rem;
+        font-family: 'montserrat';
+        white-space: nowrap;
+        color: white;
+        font-weight: 700;
+        border: none;
+        padding: 0.5rem 3rem;
+        cursor: pointer;
+        gap: 1rem;
+}
+
+@media(max-width: 768px){
+    .nosotrosContainer{
+        flex-direction: column-reverse;
+       max-width: 80%;
+    }
+}
