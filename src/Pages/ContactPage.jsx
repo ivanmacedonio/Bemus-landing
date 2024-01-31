@@ -3,6 +3,8 @@ import React from "react";
 import { Header } from "../Components/Header";
 import "../Styles/ContactPage.css";
 import arrow from "../assets/arrowRight.svg";
+import gif2 from '../assets/gif2.gif';
+
 
 export const ContactPage = () => {
   return (
@@ -32,14 +34,7 @@ export const ContactPage = () => {
             </form>
           </div>
           <div className="gifContactoContainer">
-            <iframe
-              src="https://giphy.com/embed/BeYzLDJhmKGFvDhePG"
-              width="270"
-              height="480"
-              frameBorder="0"
-              class="giphy-embed"
-              allowFullScreen
-            ></iframe>
+            <img src={gif2} alt="" />
           </div>
         </div>
       </div>

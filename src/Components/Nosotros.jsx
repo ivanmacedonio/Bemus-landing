@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import "../Styles/Nosotros.css";
+import gif from '../assets/gif1.gif';
 
 export const Nosotros = () => {
   function scrollToSection() {
@@ -10,15 +11,9 @@ export const Nosotros = () => {
   return (
     <div className="nosotrosContainer" id="hrefnosotros">
       <div className="nosotrosGif">
-        <iframe
-          src="https://giphy.com/embed/rKv7oh9GYONWWjrSBG"
-          width="320"
-          height="480"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-        ></iframe>
+        <img src={gif} alt="" />
       </div>
+
       <div className="nosotrosText">
         <motion.div
           whileInView={{ y: 0, opacity: 1 }}
